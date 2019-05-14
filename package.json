@@ -1,0 +1,31 @@
+{
+  "name": "svg3d",
+  "version": "1.0.0",
+  "description": "generate a 3D model from SVG",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --content-base ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobliaos/SVG3D.git"
+  },
+  "keywords": [
+    "SVG",
+    "3D"
+  ],
+  "author": "Bob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobliaos/SVG3D/issues"
+  },
+  "homepage": "https://github.com/bobliaos/SVG3D#readme",
+  "dependencies": {
+    "three": "^0.104.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
